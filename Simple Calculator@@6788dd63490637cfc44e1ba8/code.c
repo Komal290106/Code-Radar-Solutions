@@ -15,13 +15,13 @@ int main(){
         printf("%d",re);
     } else if (c=='/'){
         if (b==0){
-         printf("Error");
+         printf("error");
         } else {
         re = a/b;
         printf("%d",re);
         }
     } else {
-        printf("Error");
+        printf("error");
     }
     return 0;
 }
