@@ -13,9 +13,13 @@ int main(){
     } else if (c=='*'){
         re = a*b;
         printf("%d",re);
-    } else if (a/b){
+    } else if (c=='/'){
+        if (b==0){
+         printf("Error")
+        } else {
         re = a/b;
         printf("%d",re);
+        }
     } else {
         printf("Error");
     }
