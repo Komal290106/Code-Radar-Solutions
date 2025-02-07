@@ -13,9 +13,11 @@ int main(){
     } else if (c=='*'){
         re = a*b;
         printf("%d",re);
-    } else {
+    } else if (a/b){
         re = a/b;
         printf("%d",re);
+    } else {
+        printf("Error");
     }
     return 0;
 }
