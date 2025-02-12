@@ -1,10 +1,12 @@
 #include<stdio.h>
 
 int main(){
-    int a,lb;
-    scanf("%d",&a);
-    lb = a & -a;
-    printf("%d",lb);
+    int num,pos = 0;
+    scanf("%d",&num);
+    while ((num & 1)==0){
+        num >> 1;
+        pos ++;
+    }
+    printf("%d",pos);
     return 0;
-
 }
